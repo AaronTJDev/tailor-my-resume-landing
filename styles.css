@@ -85,6 +85,16 @@ nav {
   background-color: var(--secondary-background);
 }
 
+nav .cta-button {
+  background-color:#F2F6F8;
+  color: var(--primary-color)
+}
+
+nav .cta-button:hover {
+  background-color: #F2F6F8;
+  color: #B7D1DA;
+}
+
 .hamburger {
   display: none;
   flex-direction: column;
@@ -251,7 +261,7 @@ section {
 }
 
 #cta .cta-button:hover {
-  background-color: var(--accent-color);
+  background-color: var(--secondary-background);
   color: white;
   transform: translateY(-2px);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
