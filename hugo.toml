@@ -1,0 +1,4 @@
+baseURL = 'https://tailormyresume.io/'
+languageCode = 'en-us'
+title = 'Tailor My Resume'
+theme = 'hugo-fresh'
