@@ -7792,6 +7792,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 /* ==========================================================================
 Main SCSS file / Fresh
 ========================================================================== */
+.icon {
+  font-size: 18px !important; }
+
 /* ==========================================================================
 Color variables
 ========================================================================== */
@@ -7994,28 +7997,65 @@ Section Styles
 .content-wrapper {
   padding: 60px 0; }
 
-img.pushed-image {
-  margin-top: -5vh; }
-
 .media.icon-box {
-  border-top: none !important; }
-  .media.icon-box .media-content .content p span {
-    display: block; }
-  .media.icon-box .media-content .content p .icon-box-title {
-    color: #444F60;
-    font-size: 1.2rem;
-    font-weight: 600; }
-  .media.icon-box .media-content .content p .icon-box-text {
-    color: #A9ABAC;
-    font-size: 1rem;
-    font-weight: 400; }
+  border-top: none !important;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative; }
+  .media.icon-box .title-group {
+    display: flex;
+    align-items: center;
+    gap: 10px; }
+  .media.icon-box .icon {
+    color: #444F60; }
+  .media.icon-box .icon i {
+    font-size: 1.6rem; }
+  .media.icon-box .media-content .content {
+    display: flex;
+    flex-direction: column; }
+    .media.icon-box .media-content .content .icon-box-title {
+      color: #444F60;
+      font-size: 1.5rem;
+      font-weight: 600; }
+    .media.icon-box .media-content .content .icon-box-text {
+      color: #A9ABAC;
+      font-size: 1.25rem;
+      font-weight: 400;
+      margin-top: 5px; }
+
+.icon {
+  font-size: 2rem; }
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% center; }
+  100% {
+    background-position: 200% center; } }
+
+.shimmer {
+  animation: shimmer 3s ease-in-out infinite;
+  background-size: 200% auto;
+  background-image: linear-gradient(to right, #a855f7, #3b82f6, #a855f7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+  font-size: 6rem;
+  font-weight: 500;
+  letter-spacing: 0.15em; }
+
+.worker-img {
+  position: relative;
+  border-radius: 360px;
+  width: 480px; }
 
 /* ==========================================================================
 Hero styles
 ========================================================================== */
 .hero-body {
-  padding-top: 6rem;
-  padding-bottom: 6rem; }
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
   .hero-body .title, .hero-body .subtitle {
     font-family: 'Open Sans', sans-serif; }
   .hero-body .title.is-bold {
@@ -8160,8 +8200,15 @@ Cards and Card content styles
   .feature-card .card-icon img {
     height: 120px;
     margin-top: 20px; }
+  .feature-card .card-icon i {
+    font-size: 32px !important;
+    margin: 8px 0 8px 0; }
+  .feature-card .card-icon {
+    margin-top: 24px;
+    margin-bottom: 24px; }
   .feature-card .card-text {
-    padding: 0 40px; }
+    padding: 0 40px;
+    font-size: .92em; }
     .feature-card .card-text p {
       color: #999; }
   .feature-card .card-action {
