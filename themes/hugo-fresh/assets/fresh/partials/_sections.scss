@@ -1,0 +1,138 @@
+/* ==========================================================================
+Section Styles
+========================================================================== */
+
+//Sections
+.section {
+    &.section-light-grey {
+        background-color: $light-grey;
+    }
+    &.section-feature-grey {
+        background-color: $section-grey;
+    }
+    &.section-secondary {
+        background-color: $secondary;
+    }
+    &.section-half {
+        height: 75vh !important;
+    }
+    .title, .subtitle {
+        font-family: 'Open Sans', sans-serif;
+
+    }
+    .subtitle {
+        &.is-muted {
+            color: $muted-grey;
+        }
+    }
+}
+
+//Titles
+.title-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    .title, .subtitle {
+        font-family: 'Open Sans', sans-serif;
+
+    }
+    .subtitle {
+        &.is-muted {
+            color: $muted-grey;
+        }
+    }
+}
+
+//Divider
+.divider {
+    height: 3px;
+    border-radius: 50px;
+    background: $secondary;
+    width: 60px;
+    &.is-centered {
+        margin: 0 auto;
+    }
+}
+
+//Wrapper
+.content-wrapper {
+    padding: 60px 0;
+}
+
+// Icon Box
+.media.icon-box {
+    border-top: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+
+    .title-group {
+        display: flex;
+        align-items: center; // Ensures the icon and title align properly
+        gap: 10px; // Adjust spacing between icon and title
+    }
+
+    .icon {
+        color: $blue-grey;
+    }
+
+    .icon i {
+        font-size: 1.6rem;
+    }
+
+    .media-content .content {
+        display: flex;
+        flex-direction: column;
+
+        .icon-box-title {
+            color: $blue-grey;
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .icon-box-text {
+            color: $title-grey;
+            font-size: 1.25rem;
+            font-weight: 400;
+            margin-top: 5px; // Ensures spacing between title and text
+        }
+    }
+}
+
+
+.icon {
+    font-size: 2rem;
+}
+
+@keyframes shimmer {
+    0% {
+      background-position: -200% center;
+    }
+    100% {
+      background-position: 200% center;
+    }
+  }
+  
+  .shimmer {
+    animation: shimmer 3s ease-in-out infinite;
+    background-size: 200% auto;
+    background-image: linear-gradient(
+      to right,
+      #a855f7,  // Purple-500
+      #3b82f6,  // Blue-500
+      #a855f7   // Purple-500
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-weight: 500;
+    letter-spacing: 0.15em; // Tracking-tightest equivalent
+  }
+  
+.pushed-image {
+    position: relative;
+    border-radius: 360px;
+    max-width: 50vw;
+}

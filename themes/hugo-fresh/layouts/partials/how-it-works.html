@@ -1,0 +1,33 @@
+{{- $how := .Site.Params.how }}
+{{- $title    := index $how "title" }}
+{{- $subtitle := index $how "subtitle" }}
+{{- $features := index $how "features" }}
+<section class="section is-medium" id="how-it-works" style="padding: 4.5rem">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-centered-tablet-portrait">
+        <h1 class="title section-title">{{ $title }}</h1>
+        <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+        <div class="divider"></div>
+      </div>
+    </div>
+    <div class="columns">
+      <div class="column is-8">
+        {{- range $features }}
+        <article class="media icon-box">
+          <div class="media-content mt-50 ml-8">
+            <div class="content">
+              <div class="title-group">
+                <span class="icon"><i class="fa fa-{{ .icon }} shimmer"></i></span>
+                <span class="icon-box-title">{{ .title }}</span>
+              </div>
+              <p class="icon-box-text">{{ .text | markdownify }}</p>
+            </div>
+          </div>
+        </article>
+        {{- end }}
+      </div>
+    </div>
+  </div>
+</section>
+

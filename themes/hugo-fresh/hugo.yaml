@@ -1,0 +1,97 @@
+baseURL: https://tailormyresume.io/
+languageCode: en-us
+title: Tailor My Resume
+theme: 'hugo-fresh'
+
+module:
+  imports:
+  - path: bulma
+
+disableKinds:
+- taxonomy
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  openGraph: true
+  description: "From application to interview in record time: AI-powered tailoring that optimizes your existing resume for each job, catching employers' attention instantly."
+  
+  navbarlogo:
+    image: logos/logo.svg
+    link: /
+  
+  font:
+    name: "Noto Sans"
+    sizes: [200,400,700]
+  
+  hero:
+    title: Your experience, expertly tailored
+    subtitle: "From application to interview in record time: AI-powered tailoring that optimizes your existing resume for each job, catching employers' attention instantly."
+    buttontext: Get Started
+    buttonlink: "#features"
+    image: tailor.svg
+  
+  navbar:
+  - title: Features
+    url: "#features"
+  - title: How It Works
+    url: "#how-it-works"
+  - title: Sign In
+    url: https://app.tailormyresume.io/
+  - title: Get Started
+    url: /signup
+    button: true
+  
+  features:
+    title: Why Choose Tailor My Resume?
+    subtitle: ""
+    tiles:
+    - title: AI-Powered Customization
+      icon: magic
+      text: "Our advanced AI analyzes job descriptions and instantly tailors your resume, highlighting your most relevant skills and experiences for each application."
+      buttonText: Get started
+          # Button text
+      # Where the main hero button links to
+      buttonLink: "#"
+      # Hero image (from static/images/___)
+      image: illustrations/worker.svg
+    - title: ATS Optimization
+      icon: line-chart
+      text: "Maximize your chances of getting past Applicant Tracking Systems with our smart keyword integration and formatting, ensuring your resume is both human and machine-readable."
+    - title: Time-Saving Efficiency
+      icon: clock-o
+      text: "Cut down application time from hours to minutes. Our one-click tailoring and browser extension allow you to customize your resume directly from job postings, streamlining your job search process."
+  
+  how:
+    title: How It Works
+    subtitle: "Tailor your resume in three simple steps."
+    features:
+    - title: Upload Your Resume
+      text: "Start by uploading your existing resume to our platform."
+      icon: upload
+    - title: Visit a Job Posting
+      text: "Find a job you're interested in and open the posting in your browser."
+      icon: briefcase
+    - title: Download Your Tailored Resume
+      text: "With one click, download your perfectly tailored resume for the specific job."
+      icon: download
+  
+  section3:
+    title: Ready to Boost Your Career?
+    subtitle: "Join thousands of professionals landing their dream jobs."
+    buttonText: Start Tailoring Now
+    buttonLink: /signup
+    image: work-min.jpg
+  
+  footer:
+    logo: logo.svg
+    quicklinks:
+      column1:
+        title: "Company"
+        links:
+        - text: Privacy Policy
+          link: /privacy-policy
+    copyright: "&copy; 2024 Tailor My Resume. All rights reserved."
