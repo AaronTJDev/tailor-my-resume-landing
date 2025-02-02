@@ -22,3 +22,5 @@ _site
 dev
 node_modules
 test/output/
+
+resources/_gen/
