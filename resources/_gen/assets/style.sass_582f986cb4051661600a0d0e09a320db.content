@@ -7792,9 +7792,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 /* ==========================================================================
 Main SCSS file / Fresh
 ========================================================================== */
-.icon {
-  font-size: 18px !important; }
-
 /* ==========================================================================
 Color variables
 ========================================================================== */
@@ -8045,10 +8042,10 @@ Section Styles
   font-weight: 500;
   letter-spacing: 0.15em; }
 
-.worker-img {
+.pushed-image {
   position: relative;
   border-radius: 360px;
-  width: 480px; }
+  max-width: 50vw; }
 
 /* ==========================================================================
 Hero styles
