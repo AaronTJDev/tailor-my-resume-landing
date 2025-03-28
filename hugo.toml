@@ -2,3 +2,7 @@ baseURL = 'https://tailormyresume.io/'
 languageCode = 'en-us'
 title = 'Tailor My Resume'
 theme = 'hugo-fresh'
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-KFYGS5Y77X'
