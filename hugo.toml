@@ -6,3 +6,50 @@ theme = 'hugo-fresh'
 [services]
   [services.googleAnalytics]
     id = 'G-KFYGS5Y77X'
+
+# Main menu
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+# Footer
+[params.footer]
+  logo = "logo.svg"
+  bulmalogo = false
+  socialmediatitle = "Connect with us"
+  
+  [[params.footer.quicklinks]]
+    title = "Legal"
+    
+    [[params.footer.quicklinks.links]]
+      text = "Privacy Policy"
+      link = "/privacy-policy"
+      
+    [[params.footer.quicklinks.links]]
+      text = "Terms of Service"
+      link = "/terms-of-service"
+      
+  [[params.footer.quicklinks]]
+    title = "Company"
+    
+    [[params.footer.quicklinks.links]]
+      text = "About"
+      link = "/"
+      
+    [[params.footer.quicklinks.links]]
+      text = "Contact"
+      link = "mailto:support@tailormyresume.io"
+      
+  [[params.footer.socialmedia]]
+    link = "https://github.com/yourusername/tailor-my-resume"
+    icon = "github"
+    
+  [[params.footer.socialmedia]]
+    link = "https://twitter.com/tailormyresume"
+    icon = "twitter"
+    
+  [[params.footer.socialmedia]]
+    link = "https://linkedin.com/company/tailormyresume"
+    icon = "linkedin"
