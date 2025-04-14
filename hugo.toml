@@ -40,16 +40,9 @@ theme = 'hugo-fresh'
       
     [[params.footer.quicklinks.links]]
       text = "Contact"
-      link = "mailto:support@tailormyresume.io"
+      link = "mailto:aaron@tailormyresume.io"
       
-  [[params.footer.socialmedia]]
-    link = "https://github.com/yourusername/tailor-my-resume"
-    icon = "github"
     
   [[params.footer.socialmedia]]
-    link = "https://twitter.com/tailormyresume"
-    icon = "twitter"
-    
-  [[params.footer.socialmedia]]
-    link = "https://linkedin.com/company/tailormyresume"
+    link = "https://linkedin.com/company/tailor-my-resume"
     icon = "linkedin"

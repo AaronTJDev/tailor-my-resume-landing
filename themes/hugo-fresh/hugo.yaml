@@ -28,7 +28,7 @@ params:
     sizes: [200, 400, 700]
 
   hero:
-    title: Your experience, expertly tailored
+    title: Tailor your resume in one click
     subtitle: "From application to interview in record time: AI-powered tailoring that optimizes your existing resume for each job, catching employers' attention instantly."
     buttontext: Get Started
     buttonlink: "#features"

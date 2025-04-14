@@ -59,20 +59,20 @@
 
           <div class="navbar-dropdown">
             {{- range .sublinks }}
-            <a href="{{ .url }}" class="navbar-item">
+            <a href="{{ if hasPrefix .url "#" }}{{ absURL "" }}{{ .url }}{{ else }}{{ .url }}{{ end }}" class="navbar-item">
               {{ .title }}
             </a>
             {{- end }}
           </div>
         </div>
         {{- else if .button }}
-        <a href="{{ .url }}" class="navbar-item">
+        <a href="{{ if hasPrefix .url "#" }}{{ absURL "" }}{{ .url }}{{ else }}{{ .url }}{{ end }}" class="navbar-item">
           <span class="button signup-button rounded secondary-btn raised">
             {{ .title }}
           </span>
         </a>
         {{- else }}
-        <a href="{{ .url }}" class="navbar-item is-secondary">
+        <a href="{{ if hasPrefix .url "#" }}{{ absURL "" }}{{ .url }}{{ else }}{{ .url }}{{ end }}" class="navbar-item is-secondary">
           {{ .title }}
         </a>
         {{- end }}
