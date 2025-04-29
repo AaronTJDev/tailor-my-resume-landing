@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tailor My Resume</title>
-    <link>http://localhost:1313/</link>
+    <link>https://tailormyresume.io/</link>
     <description>Recent content on Tailor My Resume</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://tailormyresume.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Privacy Policy</title>
-      <link>http://localhost:1313/privacy-policy/</link>
+      <link>https://tailormyresume.io/privacy-policy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/privacy-policy/</guid>
+      <guid>https://tailormyresume.io/privacy-policy/</guid>
       <description>&lt;h1 id=&#34;privacy-policy-for-tailor-my-resume&#34;&gt;Privacy Policy for Tailor My Resume&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Last Updated: April 7, 2025&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Welcome to Tailor My Resume (&amp;ldquo;we,&amp;rdquo; &amp;ldquo;our,&amp;rdquo; or &amp;ldquo;us&amp;rdquo;). We are committed to protecting your privacy and providing a secure experience when using our services. This Privacy Policy explains how we collect, use, and share information about you when you visit our website (tailormyresume.io), use our browser extension, or otherwise interact with us.&lt;/p&gt;&#xA;&lt;p&gt;By using our services, you agree to the collection and use of information in accordance with this Privacy Policy. If you do not agree with our policies, please do not use our services.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Terms of Service</title>
-      <link>http://localhost:1313/terms-of-service/</link>
+      <link>https://tailormyresume.io/terms-of-service/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/terms-of-service/</guid>
+      <guid>https://tailormyresume.io/terms-of-service/</guid>
       <description>&lt;h1 id=&#34;terms-of-service-for-tailor-my-resume&#34;&gt;Terms of Service for Tailor My Resume&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Last Updated: April 7, 2025&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-introduction&#34;&gt;1. Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Welcome to Tailor My Resume. These Terms of Service (&amp;ldquo;Terms&amp;rdquo;) govern your access to and use of Tailor My Resume&amp;rsquo;s website, applications, browser extensions, and services (collectively, the &amp;ldquo;Services&amp;rdquo;). Please read these Terms carefully before using our Services.&lt;/p&gt;&#xA;&lt;p&gt;By accessing or using our Services, you agree to be bound by these Terms. If you do not agree to these Terms, you may not access or use the Services.&lt;/p&gt;</description>
     </item>
   </channel>
