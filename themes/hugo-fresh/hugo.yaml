@@ -40,9 +40,9 @@ params:
     - title: How It Works
       url: "#how-it-works"
     - title: Sign In
-      url: https://app.tailormyresume.io/
+      url: https://app.tailormyresume.io/sign-in
     - title: Get Started
-      url: /signup
+      url: https://app.tailormyresume.io/sign-up
       button: true
 
   features:
