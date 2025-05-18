@@ -31,7 +31,7 @@ params:
     title: Tailor your resume in one click
     subtitle: "From application to interview in record time: AI-powered tailoring that optimizes your existing resume for each job, catching employers' attention instantly."
     buttontext: Get Started
-    buttonlink: "#features"
+    buttonlink: "https://app.tailormyresume.io/sign-up"
     image: tailor.svg
 
   navbar:
@@ -56,7 +56,7 @@ params:
           Get started
           # Button text
         # Where the main hero button links to
-        buttonLink: "#"
+        buttonLink: "https://app.tailormyresume.io/sign-up"
         # Hero image (from static/images/___)
         image: illustrations/worker.svg
       - title: ATS Optimization
@@ -84,7 +84,7 @@ params:
     title: Ready to Boost Your Career?
     subtitle: "Join thousands of professionals landing their dream jobs."
     buttonText: Start Tailoring Now
-    buttonLink: /signup
+    buttonLink: "https://app.tailormyresume.io/sign-up"
     image: work-min.jpg
 
   footer:
