@@ -46,7 +46,7 @@ params:
       button: true
 
   features:
-    title: Why Thousands of Professionals Trust Tailor My Resume
+    title: Why Smart Job Seekers Trust Tailor My Resume
     subtitle: ""
     tiles:
       - title: AI-Powered Customization
@@ -78,7 +78,7 @@ params:
 
   section3:
     title: Your Dream Job Is Closer Than You Think
-    subtitle: "Join thousands of professionals using AI to skip the guesswork — and finally get hired faster."
+    subtitle: "Join the wave of job seekers using AI to stand out and land interviews faster — your turn next."
     buttonText: Start Tailoring Now
     buttonLink: "https://app.tailormyresume.io/sign-up"
     image: work-min.jpg
