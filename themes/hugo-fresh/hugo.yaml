@@ -17,7 +17,7 @@ markup:
 
 params:
   openGraph: true
-  description: "From application to interview in record time: AI-powered tailoring that optimizes your existing resume for each job, catching employers' attention instantly."
+  description: "Land more interviews with less effort. Tailor My Resume uses AI to transform your existing resume for each job — so you apply faster, stand out instantly, and finally get noticed."
 
   navbarlogo:
     image: logos/logo.svg
@@ -28,8 +28,8 @@ params:
     sizes: [200, 400, 700]
 
   hero:
-    title: Tailor your resume in one click
-    subtitle: "From application to interview in record time: AI-powered tailoring that optimizes your existing resume for each job, catching employers' attention instantly."
+    title: More Interviews. Less Effort.
+    subtitle: "Tired of tweaking your resume for every job? Our AI does it for you — fast, personalized, and optimized to get you interviews."
     buttontext: Get Started
     buttonlink: "https://app.tailormyresume.io/sign-up"
     image: tailor.svg
@@ -46,43 +46,39 @@ params:
       button: true
 
   features:
-    title: Why Choose Tailor My Resume?
+    title: Why Thousands of Professionals Trust Tailor My Resume
     subtitle: ""
     tiles:
       - title: AI-Powered Customization
         icon: magic
-        text: "Our advanced AI analyzes job descriptions and instantly tailors your resume, highlighting your most relevant skills and experiences for each application."
-        buttonText:
-          Get started
-          # Button text
-        # Where the main hero button links to
+        text: "We match your resume to the job description automatically — surfacing the most relevant skills so you look like the perfect fit."
+        buttonText: Get started
         buttonLink: "https://app.tailormyresume.io/sign-up"
-        # Hero image (from static/images/___)
         image: illustrations/worker.svg
       - title: ATS Optimization
         icon: line-chart
-        text: "Maximize your chances of getting past Applicant Tracking Systems with our smart keyword integration and formatting, ensuring your resume is both human and machine-readable."
+        text: "Never get ghosted by software again. Our AI optimizes your resume with the right keywords and formatting to sail past ATS filters."
       - title: Time-Saving Efficiency
         icon: clock-o
-        text: "Cut down application time from hours to minutes. Our one-click tailoring and browser extension allow you to customize your resume directly from job postings, streamlining your job search process."
+        text: "Apply in 90 seconds. Our one-click tailoring turns job searching from a chore into a breeze."
 
   how:
-    title: How It Works
-    subtitle: "Tailor your resume in three simple steps."
+    title: How It Works (and Why It’s So Fast)
+    subtitle: "From resume upload to tailored application in 90 seconds."
     features:
       - title: Upload Your Resume
-        text: "Start by uploading your existing resume to our platform."
+        text: "No need to start from scratch. Upload your resume and let our AI work its magic."
         icon: upload
       - title: Visit a Job Posting
-        text: "Find a job you're interested in and open the posting in your browser."
+        text: "See a role you want? Open the posting — our extension plugs right in."
         icon: briefcase
       - title: Download Your Tailored Resume
-        text: "With one click, download your perfectly tailored resume for the specific job."
+        text: "Get a tailored resume built for that exact job — in seconds, not hours."
         icon: download
 
   section3:
-    title: Ready to Boost Your Career?
-    subtitle: "Join thousands of professionals landing their dream jobs."
+    title: Your Dream Job Is Closer Than You Think
+    subtitle: "Join thousands of professionals using AI to skip the guesswork — and finally get hired faster."
     buttonText: Start Tailoring Now
     buttonLink: "https://app.tailormyresume.io/sign-up"
     image: work-min.jpg
